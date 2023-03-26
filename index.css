@@ -12,6 +12,7 @@
 
 }
 
+@media only screen and (min-width: 768px) {
 .container{
     position: relative;
     width: 100%;
@@ -19,7 +20,9 @@
     height: 100vh;
     background-color: white;
 }
+}
 
+@media only screen and (min-width: 768px) {
 nav{
     display: flex;
     /* space b/w image and ul tag */
@@ -28,11 +31,14 @@ nav{
     width: 84%;
     margin-left: 100px;
 }
+}
+
 
 nav .logo{
     /* descendent selector parent child */
     width: 100px;
 }
+
 
 nav ul li{
     display: inline-block;
@@ -41,6 +47,7 @@ nav ul li{
     margin 20 = right and left */
     margin: 10px 20px;
 }
+
 
 nav ul li a{
     text-decoration: none;
@@ -54,16 +61,20 @@ nav ul li a:hover{
     color: blue;
 }
 
+@media only screen and (min-width: 768px) {
 .title{
     margin-top: 13%;
     margin-left: 8%;
 }
+}
+
 
 .title h1{
     font-size: 35px;
     color: rgb(4, 43, 71);
     margin-bottom: 20px;
 }
+
 
 .title span{
     color: rgb(221, 0, 255);
@@ -74,6 +85,7 @@ nav ul li a:hover{
     font-weight: bold;
     line-height: 25px;
 }
+
 
 .title a{
     background-color: rgb(4, 43, 71);
@@ -86,6 +98,7 @@ nav ul li a:hover{
     border-radius: 8px;
 }
 
+@media only screen and (min-width: 768px) {
 .images{
     height: 80%px;
     width: 45%;
@@ -93,12 +106,16 @@ nav ul li a:hover{
     right: 25px;
     bottom: 250px;
 }
+}
 
+@media only screen and (min-width: 768px) {
 #about{
     margin-left: 8%;
     margin-top: 5%;
     margin-right: 8%;
 }
+}
+
 
 .heading{
     text-align: center;
@@ -115,6 +132,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
+@media only screen and (min-width: 768px) {
 .about-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -122,6 +140,8 @@ nav ul li a:hover{
     gap: 1rem;
     margin-top: 2rem;
 }
+}
+
 
 .about-image img{
     width: 550px;
